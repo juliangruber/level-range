@@ -1,0 +1,35 @@
+{
+  "name": "level-range",
+  "description": "Find all K/V-pairs prefixed by a certain key.",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juliangruber/level-range.git"
+  },
+  "homepage": "https://github.com/juliangruber/level-range",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "dependencies": {
+    "through": "~2.2.7"
+  },
+  "devDependencies": {
+    "tap": "*",
+    "JSONStream": "~0.6.2",
+    "levelup": "~0.6.2"
+  },
+  "keywords": [
+    "leveldb",
+    "levelup",
+    "stream",
+    "range",
+    "sprintf"
+  ],
+  "author": {
+    "name": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com"
+  },
+  "license": "MIT"
+}
