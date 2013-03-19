@@ -6,6 +6,8 @@ Find all K/V-pairs prefixed by a certain key.
 An often used range query when working with
 [leveldb](https://github.com/rvagg/node-levelup).
 
+[![Build Status](https://travis-ci.org/juliangruber/level-range.png)](https://travis-ci.org/juliangruber/level-range)
+
 ## Usage
 
 Given this data stored in a leveldb at `/tmp/db`:
@@ -56,6 +58,10 @@ $ node test.js another-bucket
 
 Create a range stream. `args` will be fed into `util.formt` together with `prefix` so you can
 use placeholders there.
+
+## O Rly?
+
+Yeah, I've written those lines way too often.
 
 ## Installation
 
