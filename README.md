@@ -1,4 +1,3 @@
-
 # level-range
 
 Find all K/V-pairs prefixed by a certain key.
@@ -61,7 +60,7 @@ use placeholders there.
 
 ## O Rly?
 
-Yeah, I've written those lines way too often.
+Yeah, I've written those lines once too often. **Twice**.
 
 ## Installation
 
